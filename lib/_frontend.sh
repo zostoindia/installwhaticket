@@ -9,7 +9,7 @@
 #######################################
 frontend_node_dependencies() {
   print_banner
-  printf "${WHITE} 💻 Instalando dependências do frontend...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Installing dependencies frontend...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -29,7 +29,7 @@ EOF
 #######################################
 frontend_node_build() {
   print_banner
-  printf "${WHITE} 💻 Compilando o código do frontend...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Compiling the code frontend...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -50,7 +50,7 @@ EOF
 #######################################
 frontend_update() {
   print_banner
-  printf "${WHITE} 💻 Atualizando o frontend...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Updating the frontend...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -77,7 +77,7 @@ EOF
 #######################################
 frontend_set_env() {
   print_banner
-  printf "${WHITE} 💻 Configurando variáveis de ambiente (frontend)...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Configuring environment variables (frontend)...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -121,7 +121,7 @@ EOF
 #######################################
 frontend_start_pm2() {
   print_banner
-  printf "${WHITE} 💻 Iniciando pm2 (frontend)...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Starting pm2 (frontend)...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
