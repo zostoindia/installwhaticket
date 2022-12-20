@@ -9,7 +9,7 @@
 #######################################
 backend_mysql_create() {
   print_banner
-  printf "${WHITE} 💻 Criando banco de dados...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Creating database...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -34,7 +34,7 @@ EOF
 #######################################
 backend_set_env() {
   print_banner
-  printf "${WHITE} 💻 Configurando variáveis de ambiente (backend)...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Configuring environment variables (backend)...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -78,7 +78,7 @@ EOF
 #######################################
 backend_node_dependencies() {
   print_banner
-  printf "${WHITE} 💻 Instalando dependências do backend...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Installing dependencies backend...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -98,7 +98,7 @@ EOF
 #######################################
 backend_node_build() {
   print_banner
-  printf "${WHITE} 💻 Compilando o código do backend...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Compiling the backend code...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -119,7 +119,7 @@ EOF
 #######################################
 backend_update() {
   print_banner
-  printf "${WHITE} 💻 Atualizando o backend...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Updating the backend...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -149,7 +149,7 @@ EOF
 #######################################
 backend_db_migrate() {
   print_banner
-  printf "${WHITE} 💻 Executando db:migrate...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Running db:migrate...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -169,7 +169,7 @@ EOF
 #######################################
 backend_db_seed() {
   print_banner
-  printf "${WHITE} 💻 Executando db:seed...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Running db:seed...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -190,7 +190,7 @@ EOF
 #######################################
 backend_start_pm2() {
   print_banner
-  printf "${WHITE} 💻 Iniciando pm2 (backend)...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Start pm2 (backend)...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -210,7 +210,7 @@ EOF
 #######################################
 backend_nginx_setup() {
   print_banner
-  printf "${WHITE} 💻 Configurando nginx (backend)...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Configuring nginx (backend)...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
