@@ -1,10 +1,10 @@
-FAZENDO DOWNLOAD DO INSTALADOR & INICIANDO A PRIMEIRA INSTALAÇÃO:
+DOWNLOADING THE INSTALLER & STARTING THE FIRST INSTALLATION:
 
 ```bash
-sudo apt install -y git && git clone https://github.com/itallopenedo/whatsatendeinstall.git && sudo chmod -R 777 ./whatsatendeinstall && cd ./whatsatendeinstall && sudo ./install_primaria
+sudo apt install -y git && git clone https://github.com/zostoindia/installwhaticket.git && sudo chmod -R 777 ./whatsatendeinstall && cd ./whatsatendeinstall && sudo ./install_primaria
 ```
 
-ACESSANDO DIRETORIO DO INSTALADOR & INICIANDO INSTALAÇÕES ADICIONAIS:
+ACCESSING INSTALLER DIRECTORY & STARTING ADDITIONAL INSTALLATIONS:
 ```bash
 cd && cd ./whatsatendeinstall && sudo ./install_instancia
 ```
