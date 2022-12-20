@@ -23,7 +23,7 @@ print_banner() {
   printf "\n\n"
 
   printf "${BLUE}";
-  printf "  INSTALADOR - WHATSATENDE & ZAPFILA by ITALLO PENEDO           \n";
+  printf "  INSTALLER - WHATSATENDE   \n";
   
   printf "\n"
  
