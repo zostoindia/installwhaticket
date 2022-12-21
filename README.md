@@ -6,6 +6,6 @@ sudo apt install -y git && git clone https://github.com/zostoindia/installwhatic
 
 ACCESSING INSTALLER DIRECTORY & STARTING ADDITIONAL INSTALLATIONS:
 ```bash
-cd && cd ./installwhaticket && sudo ./installwhaticket
+cd && cd ./installwhaticket && sudo ./install_instancia
 ```
 
